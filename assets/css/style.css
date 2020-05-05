@@ -1,15 +1,72 @@
 .hide {
-    display: none;
+    display: block;
 }
-.left {
-    float: left;
-}
+ .left { 
+     margin-left: 15%;
+     float: left; 
+     text-align: center;
+ } 
 .right {
+    margin-right: 15%;
     float: right;
+    text-align: center;
 }
 .clear {
     clear: both;
-}
+ } 
 #reset-container, h1 {
     text-align: center;
+    color: firebrick;
+}
+
+.goals {
+    color: firebrick;
+    line-height: 20px;
+    
+}
+body {
+    background-color: black;
+    font-family: cursive;
+}
+
+#reset-button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 18px;
+    background-color: darkred;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: teal;
+}
+
+#teamone-shoot-button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+}
+
+#teamtwo-shoot-button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    color: teal;
+}
+.winner-box {
+    position: relative;
+    float: none;
+    align-items: center;
+    color: blue;
+    height: 50px;
 }
