@@ -3,6 +3,7 @@ let teamone_numshots = document.querySelector("#teamone-numshots");
 let teamone_shoot_button = document.querySelector("#teamone-shoot-button");
 let teamone_numgoals = document.querySelector("#teamone-numgoals");
 let mySound = document.querySelector("#sound");
+let resetSound = document.querySelector("#sound2");
 
 teamone_shoot_button.addEventListener("click", function()  {
     mySound.play();
@@ -58,7 +59,7 @@ let num_resets = document.querySelector("#num-resets");
 let gameWinner = document.querySelector(".winner-box");
 
 reset_button.addEventListener("click", function()  {
-    mySound.play();
+    resetSound.play();
 
 
     console.log ("+ button clicked")
